@@ -32,18 +32,30 @@
   font-size: 4.5rem;
   background-image: none;
   width: 828px;
-  margin: 59px auto 0;
+  margin: 62px auto 0;
 }
 
 .u-section-2 .u-text-2 {
   line-height: 2;
-  font-size: 1.25rem;
-  margin: 37px 0 60px;
+  font-size: 1.5rem;
+  margin: 32px 105px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-2 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-text-1 {
     width: 720px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
